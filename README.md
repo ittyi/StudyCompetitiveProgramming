@@ -4,5 +4,5 @@
 
 #### 実行
 ``` bash
-go run 
+go run filename
 ```
