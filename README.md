@@ -6,3 +6,8 @@
 ``` bash
 go run filename
 ```
+
+#### テスト実行
+``` bash
+go test -v
+```

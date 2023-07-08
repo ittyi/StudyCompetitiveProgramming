@@ -1,7 +1,4 @@
-package main
-
-import "fmt"
-
+package tenselectedpastquestions
 /*
 問題文 Product
 シカのAtCoDeerくんは二つの正整数 
@@ -17,8 +14,7 @@ a,b は整数
 奇数odd
 */
 
-func ABC086_A(var a, b int) string{
-	var a, b int
+func ABC086_A(a, b int) string{
 	var str string
 	
 	if a*b % 2 == 0{
