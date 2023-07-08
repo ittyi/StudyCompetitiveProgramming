@@ -26,7 +26,7 @@ func TestABC086_A(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := ABC086_A(tt.args.a, tt.args.b); got != tt.want {
-				t.Errorf("add() = %v, want %v", got, tt.want)
+				t.Errorf("ABC086_A() = %v, want %v", got, tt.want)
 			}
 		})
 	}
