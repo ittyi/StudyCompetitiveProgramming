@@ -1,7 +1,10 @@
- package main
+package main
 
- import "fmt"
+import (
+  "fmt"
+  tenSelectedPastQuestions "StudyCompetitiveProgramming/tenSelectedPastQuestions"
+)
 
  func main() {
-   fmt.Printf("Hello World\n")
+  fmt.Println("unchi:", tenSelectedPastQuestions.ABC081_B())
 }

@@ -1,3 +1,3 @@
-module github.com/ittyi/StudyCompetitiveProgramming
+module StudyCompetitiveProgramming
 
 go 1.16
