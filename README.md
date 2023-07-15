@@ -10,4 +10,7 @@ go run filename
 #### テスト実行
 ``` bash
 go test -v
+
+// testテスト単体実行
+go test -v testname.go testname_test.go
 ```
