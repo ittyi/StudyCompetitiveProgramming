@@ -1,10 +1,12 @@
 package main
 
 import (
-  "fmt"
-  tenSelectedPastQuestions "StudyCompetitiveProgramming/tenSelectedPastQuestions"
+	tenSelectedPastQuestions "StudyCompetitiveProgramming/tenSelectedPastQuestions"
+	"fmt"
 )
 
- func main() {
-  fmt.Println("unchi:", tenSelectedPastQuestions.ABC081_B())
+func main() {
+	tmp := []int{3, 1}
+	fmt.Println("unchi:",
+		tenSelectedPastQuestions.ABC088_B(2, tmp))
 }
